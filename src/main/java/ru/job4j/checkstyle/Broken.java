@@ -7,6 +7,10 @@ public class Broken {
     public String surname;
     public static final String NEW_VALUE = "";
 
+    Broken() {
+
+    }
+
     void echo() {
 
     }
@@ -20,9 +24,4 @@ public class Broken {
             System.out.println(obj);
         }
     }
-
-    Broken() {
-
-    }
-
 }
